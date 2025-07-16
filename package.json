@@ -8,6 +8,11 @@
     "email": "",
     "url": ""
   },
-  "main": "./dist/main/main.js",
-  "dependencies": {}
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
