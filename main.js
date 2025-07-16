@@ -6,7 +6,7 @@ const app = express();
 // Serve static files from dist/renderer
 app.use(express.static(path.join(__dirname, 'dist/renderer')));
 
-// Route all requests to index.html
+// Fallback to index.html for SPA routes
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/renderer/index.html'));
 });
