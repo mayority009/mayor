@@ -1,0 +1,13 @@
+{
+  "name": "crypto-factory",
+  "version": "2.0.0",
+  "description": "Crypto Factory",
+  "license": "MIT",
+  "author": {
+    "name": "Crypto Factory",
+    "email": "",
+    "url": ""
+  },
+  "main": "./dist/main/main.js",
+  "dependencies": {}
+}
